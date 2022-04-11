@@ -1,0 +1,76 @@
+ body{
+   margin: 0;
+   /* padding: 0; */
+   width: 100%
+   height:100vh;
+   background: linear-gradient(90deg,yellow 10%,blue 70%,green 90%);
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+.wrap{
+   position: relative;
+}
+h1{
+  color: #fff;
+  text-shadow: 2px 2px rgba(0,0,0,0.3);
+  font-family: sans-serif;
+
+}
+.main{
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20%;
+  border-radius: 10px;
+  /* position: absolute; */
+  border: 3px solid rgba(255,255,255,0.2);
+}
+
+.drop{
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 50px;
+  height: 50px;
+position: absolute;
+margin: 0 auto;
+filter: blur(1px);
+}
+.drop1{
+  border-radius: 10%;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: block;
+ width: 55%;
+ height: 150px;
+  filter:blur(0.5px);
+  z-index: 2;
+    top: 50px;
+  left: 0;
+  right: 0;
+}
+
+.drop2{
+   border-radius: 10%;
+    z-index: 4;
+    left: -80%;
+    right: 0;
+
+    top: -30px;
+    width: 40px;
+    height: 40px;
+  }
+  .drop3{
+    border-radius: 10%;
+      width: 60px;
+      height: 60px;
+      z-index: 3;
+      left: 40%;
+      right: 30px;
+      top: 120px;
+    }
+    .drop4{
+      border-radius: 50%;
+
+        width: 40px;
+        height: 40px;
+        right: 20px;
+        top: -55px;
+      }
